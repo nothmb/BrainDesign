@@ -1,0 +1,245 @@
+body {
+  background-color: #002F50;
+  font-family: "Open Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.with-bg {
+  background-image: url(/img/image\ head.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.wrapper {
+  max-width: 1240px;
+  margin: 0 300px;
+}
+
+nav {
+  padding-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.nav-item {
+  margin-top: 14px;
+}
+
+.logo {
+  margin-right: 120px;
+}
+
+.nav-item a {
+  margin-right: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  text-decoration: none;
+  /* white */
+  color: #FFFFFF;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+
+.tel {
+  margin-top: 14px;
+  margin-left: 47.5px;
+}
+
+.tel a {
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+  /* white */
+  color: #FFFFFF;
+}
+
+.zayavka-but button {
+  margin-left: 47.5px;
+  margin-top: 5px;
+  background: transparent;
+  width: 220px;
+  height: 45px;
+  border: 2px solid #35C4E8;
+  border-radius: 30px;
+  -webkit-filter: drop-shadow(1px 1px 4px #00D2FF);
+          filter: drop-shadow(1px 1px 4px #00D2FF);
+}
+
+.zayavka-but button a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  /* white */
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.card__hover {
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+  text-decoration: none;
+}
+
+.card__hover:hover {
+  -webkit-filter: drop-shadow(1px 1px 10px #00D2FF);
+          filter: drop-shadow(1px 1px 10px #00D2FF);
+}
+
+button {
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+.btn__hover:hover {
+  background: #00D2FF;
+  -webkit-filter: drop-shadow(1px 1px 10px #00D2FF);
+          filter: drop-shadow(1px 1px 10px #00D2FF);
+}
+
+.link__hover:hover {
+  text-shadow: 0 0 7px #fff, 0 0 42px #00D2FF;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  background: #00111D;
+  margin-bottom: 0;
+}
+
+.footer-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.footer-left {
+  margin-top: 120px;
+}
+
+.footer-left p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  /* white */
+  color: #FFFFFF;
+}
+
+.footer-left img {
+  width: 250px;
+  height: 80px;
+}
+
+.footer-nav {
+  display: block;
+}
+
+.footer-middle {
+  margin-top: 120px;
+}
+
+.footer-middle a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  /* white */
+  color: #FFFFFF;
+  /* Inside auto layout */
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+}
+
+.footer-right {
+  margin-top: 120px;
+}
+
+.footer-right p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+  /* white */
+  color: #FFFFFF;
+  /* Inside auto layout */
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+}
+
+.footer-right a {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  /* white */
+  color: #FFFFFF;
+  /* Inside auto layout */
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+}
+
+.footer-holder {
+  padding-bottom: 120px;
+}
+
+.user-lists {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.user-lists a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  /* white */
+  color: #FFFFFF;
+  padding-bottom: 30px;
+}
